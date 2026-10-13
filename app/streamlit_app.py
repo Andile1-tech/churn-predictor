@@ -9,12 +9,12 @@ from src.predict import predict_one
 
 
 st.set_page_config(
-    page_title="Churn Predictor",
+    page_title="Churn Risk Analyzer",
     page_icon="📉",
     layout="wide",
 )
 
-st.title("📉 Customer Churn Predictor")
+st.title("📉 Churn Risk Analyzer")
 st.caption(
     "Enter a customer's details to estimate their probability of churning. "
     "The model was trained on the Telco Customer Churn dataset."
