@@ -10,10 +10,14 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 
-# Data & models (large + regenerable)
+# Data (large + regenerable)
 data/raw/
 data/processed/
+
+# Model: the trained .joblib IS committed so deployment platforms
+# can load it without retraining. metrics.json is committed too.
 models/*.joblib
+!models/churn_model.joblib
 
 # Environment
 .env
