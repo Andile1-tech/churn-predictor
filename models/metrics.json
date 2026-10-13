@@ -1,0 +1,15 @@
+{
+  "model": "logistic_regression",
+  "cv_roc_auc": 0.845583340756517,
+  "test_metrics": {
+    "roc_auc": 0.8344277867795891,
+    "precision": 0.48932676518883417,
+    "recall": 0.7967914438502673,
+    "f1": 0.6063072227873856
+  },
+  "best_params": {
+    "classifier__C": "10.0",
+    "classifier__l1_ratio": "0",
+    "classifier__solver": "liblinear"
+  }
+}
